@@ -1,4 +1,81 @@
-header {
+/* div{
+    border: 10px solid red;
+}
+ */
+
+ /* General button Properties */
+ .button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 800;
+    border: 10px solid #3882F6;
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+ }
+
+.section-1{
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #1F2937;
+}
+
+
+/*Header properties*/
+.header{
+    flex-shrink: 0.5;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-left: 10px;
+}
+
+
+/* Hero properties*/
+.hero{
+    display: flex;
+    align-items: stretch;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+.hero-img{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.hero-text{
+    flex-grow: 2;
+    flex-basis: 0;
+    padding-right: 5%;
+}
+
+#hero-main-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+
+}
+
+#hero-secondary-text{
+    color: #E5E7EB;
+    font-size: 18px;
 }
