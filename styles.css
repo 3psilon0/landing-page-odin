@@ -1,3 +1,7 @@
+ body{
+    margin: 0;
+ }
+ 
  /* General button Properties */
  .button{
     background-color: #3882F6;
