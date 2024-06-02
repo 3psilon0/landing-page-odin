@@ -188,3 +188,12 @@
     padding: 5% 20% 5% 20%;
     
 }
+
+/* FOOTER */
+
+.footer{
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 3% 3%;
+    text-align: center;
+}
